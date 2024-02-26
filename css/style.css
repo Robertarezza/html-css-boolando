@@ -34,14 +34,14 @@ img{
     margin: 0 auto;
 
     /* DEBUGH */
-    background-color: aqua;
-    border: 2px solid black;
+    /* background-color: aqua;
+    border: 2px solid black; */
     
 }
 
 .cont-card{
     width: calc(100%/3);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* height: 100px; */
     padding: 20px;
     
@@ -87,3 +87,6 @@ img{
     text-decoration: line-through;
 }
  
+.sost{
+    left: 0;
+}

@@ -1,0 +1,23 @@
+/* rest */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+
+.contenitore{
+    width: 80%;
+    max-height: 1100px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.card{
+    width: calc(100%/3);
+    border: 1px solid black;
+    height: 100px;
+}

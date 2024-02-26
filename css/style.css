@@ -4,20 +4,86 @@
     box-sizing: border-box;
     margin: 0;
 }
+img{
+    max-width: 100%;
+}
+
+.img-1{
+    display: block;
+}
+
+.img-2{
+    display: none;
+}
+
+.cambio:hover .img-1{
+    display: none 
+}
+.cambio:hover .img-2{
+    display: block;
+}
+
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .contenitore{
     width: 80%;
     max-height: 1100px;
+    margin: 0 auto;
+
+    /* DEBUGH */
     background-color: aqua;
     border: 2px solid black;
-    margin: 0 auto;
+    
 }
 
-.card{
+.cont-card{
     width: calc(100%/3);
     border: 1px solid black;
-    height: 100px;
+    /* height: 100px; */
+    padding: 20px;
+    
 }
+.card{
+    position: relative;
+}
+.discount{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+.green-1{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-size: 0.6rem;
+    position: absolute;
+    bottom: 50px;
+    left: 35px;
+}
+.heart{
+    background-color: white;
+    padding: 5px 8px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.marchio{
+    font-size: 0.6rem;
+}
+
+.prezzo{
+    color: red;
+}
+.sconto{
+    color: grey;
+    text-decoration: line-through;
+}
+ 

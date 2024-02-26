@@ -10,7 +10,7 @@ ul{
     padding-top: 5px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 a{
     text-decoration: none;
@@ -18,7 +18,7 @@ a{
     padding-left: 5px;
     font-size: 0.8rem;
     width: 100%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 /* img */
@@ -40,6 +40,8 @@ img{
 .cambio:hover .img-2{
     display: block;
 }
+
+/* flex */
 
 .cont-flex{
     display: flex;
@@ -90,15 +92,15 @@ header{
     padding-top: 5px;
 }
 
-.lista.dx{
+.lista-dx{
     width: 25%;
-   
-    text-align: right;
+    justify-content: end;
+    padding-right: 10px;
 }
 
-.lista{
-    margin-left: 200px;
-}
+
+
+/* main */
 
 .cont-card{
     width: calc(100%/3);
@@ -150,4 +152,25 @@ header{
  
 .sost{
     left: 0;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 50px;
+}
+
+.info{
+    width: 50%;
+    color: white;
+}
+
+.trovaci{
+    width: 50%;
+    color: white;
+    text-align: end;
+}
+.font-size-1{
+    font-size: 0.5rem;
+    
 }
